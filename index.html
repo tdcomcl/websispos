@@ -1,0 +1,1628 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+    
+    <!-- Map CSS -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    <link rel="stylesheet" href="./assets/css/price.css" />
+    
+    <!-- Title -->
+    <title>Sisnet</title>
+  </head>
+  <body>
+    <!-- top sitio -->
+ <!--    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container"> -->
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/brand.svg" class="navbar-brand-img" alt="...">
+        </a>
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+    
+          <!-- Navigation -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLandings" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Landings
+              </a>
+              <div class="dropdown-menu dropdown-menu-xl p-0" aria-labelledby="navbarLandings">
+                <div class="row gx-0">
+                  <div class="col-12 col-lg-6">
+                    <div class="dropdown-img-start" style="background-image: url(./assets/img/photos/photo-3.jpg);">
+    
+                      <!-- Heading -->
+                      <h4 class="fw-bold text-white mb-0">
+                        Want to see an overview?
+                      </h4>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-white">
+                        See all the pages at once.
+                      </p>
+    
+                      <!-- Button -->
+                      <a href="./overview.html" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
+                        View all pages
+                      </a>
+    
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="dropdown-body">
+                      <div class="row gx-0">
+                        <div class="col-6">
+    
+                          <!-- Heading -->
+                          <h6 class="dropdown-header">
+                            Services
+                          </h6>
+    
+                          <!-- List -->
+                          <a class="dropdown-item" href="./coworking.html">
+                            Coworking
+                          </a>
+                          <a class="dropdown-item" href="./rental.html">
+                            Rental
+                          </a>
+                          <a class="dropdown-item mb-5" href="./job.html">
+                            Job Listing
+                          </a>
+    
+                          <!-- Heading -->
+                          <h6 class="dropdown-header">
+                            Apps
+                          </h6>
+    
+                          <!-- List -->
+                          <a class="dropdown-item" href="./desktop-app.html">
+                            Desktop
+                          </a>
+                          <a class="dropdown-item" href="./mobile-app.html">
+                            Mobile
+                          </a>
+    
+                        </div>
+                        <div class="col-6">
+    
+                          <!-- Heading -->
+                          <h6 class="dropdown-header">
+                            Web
+                          </h6>
+    
+                          <!-- List -->
+                          <a class="dropdown-item" href="./index.html">
+                            Basic
+                          </a>
+                          <a class="dropdown-item" href="./startup.html">
+                            Startup
+                          </a>
+                          <a class="dropdown-item" href="./enterprise.html">
+                            Enterprise
+                          </a>
+                          <a class="dropdown-item" href="./service.html">
+                            Service
+                          </a>
+                          <a class="dropdown-item" href="./cloud.html">
+                            Cloud Hosting
+                          </a>
+                          <a class="dropdown-item" href="./agency.html">
+                            Agency
+                          </a>
+                          <a class="dropdown-item" href="./framework.html">
+                            Framework <span class="h6 text-uppercase text-primary">(new)</span>
+                          </a>
+    
+                        </div>
+                      </div> <!-- / .row -->
+                    </div>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarPages" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarPages">
+                <div class="row gx-0">
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Career
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./careers.html">
+                          Listing
+                        </a>
+                        <a class="dropdown-item mb-5" href="./career-single.html">
+                          Opening
+                        </a>
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Company
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./about.html">
+                          About
+                        </a>
+                        <a class="dropdown-item" href="./pricing.html">
+                          Pricing
+                        </a>
+                        <a class="dropdown-item mb-5 mb-lg-0" href="./terms-of-service.html">
+                          Terms
+                        </a>
+    
+                      </div>
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Help center
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./help-center.html">
+                          Overview
+                        </a>
+                        <a class="dropdown-item mb-5" href="./help-center-article.html">
+                          Article
+                        </a>
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Contact
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./contact.html">
+                          Basic
+                        </a>
+                        <a class="dropdown-item" href="./contact-alt.html">
+                          Cover
+                        </a>
+    
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="row gx-0">
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Blog
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./blog.html">
+                          Rich View
+                        </a>
+                        <a class="dropdown-item" href="./blog-post.html">
+                          Article
+                        </a>
+                        <a class="dropdown-item" href="./blog-showcase.html">
+                          Showcase
+                        </a>
+                        <a class="dropdown-item mb-5 mb-lg-0" href="./blog-search.html">
+                          Search
+                        </a>
+    
+                      </div>
+                      <div class="col-12 col-lg-6">
+    
+                        <!-- Heading -->
+                        <h6 class="dropdown-header">
+                          Portfolio
+                        </h6>
+    
+                        <!-- List -->
+                        <a class="dropdown-item" href="./portfolio-masonry.html">
+                          Masonry
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-grid-rows.html">
+                          Grid Rows
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-parallax.html">
+                          Parallax
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-case-study.html">
+                          Case Study
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-sidebar.html">
+                          Sidebar
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-sidebar-fluid.html">
+                          Sidebar: Fluid
+                        </a>
+                        <a class="dropdown-item" href="./portfolio-grid.html">
+                          Basic Grid
+                        </a>
+    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarAccount" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Account
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarAccount">
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Settings
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./account-general.html">
+                      General
+                    </a>
+                    <a class="dropdown-item" href="./account-security.html">
+                      Security
+                    </a>
+                    <a class="dropdown-item" href="./account-notifications.html">
+                      Notifications
+                    </a>
+                    <a class="dropdown-item" href="./billing-plans-and-payment.html">
+                      Plans & Payment
+                    </a>
+                    <a class="dropdown-item" href="./billing-users.html">
+                      Users
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Sign In
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./signin-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./signin-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./signin.html">
+                      Basic
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSigninHorizontal">
+                      Modal Horizontal
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSigninVertical">
+                      Modal Vertical
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Sign Up
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./signup-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./signup-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./signup.html">
+                      Basic
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSignupHorizontal">
+                      Modal Horizontal
+                    </a>
+                    <a class="dropdown-item" data-bs-toggle="modal" href="#modalSignupVertical">
+                      Modal Vertical
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Password Reset
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./password-reset-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./password-reset-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./password-reset.html">
+                      Basic
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropend">
+                  <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                    Error
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./error-cover.html">
+                      Side Cover
+                    </a>
+                    <a class="dropdown-item" href="./error-illustration.html">
+                      Illustration
+                    </a>
+                    <a class="dropdown-item" href="./error.html">
+                      Basic
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                Documentation
+              </a>
+              <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
+                <div class="list-group list-group-flush">
+                  <a class="list-group-item" href="./docs/index.html">
+    
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"/><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"/><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"/></g></svg>                </div>
+    
+                    <!-- Content -->
+                    <div class="ms-4">
+    
+                      <!-- Heading -->
+                      <h6 class="fw-bold text-uppercase text-primary mb-0">
+                        Documentation
+                      </h6>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-gray-700 mb-0">
+                        Customizing and building
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                  <a class="list-group-item" href="./docs/alerts.html">
+    
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"/><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"/></g></svg>                </div>
+    
+                    <!-- Content -->
+                    <div class="ms-4">
+    
+                      <!-- Heading -->
+                      <h6 class="fw-bold text-uppercase text-primary mb-0">
+                        Components
+                      </h6>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-gray-700 mb-0">
+                        Full list of components
+                      </p>
+    
+                    </div>
+    
+                  </a>
+                  <a class="list-group-item" href="./docs/changelog.html">
+    
+                    <!-- Icon -->
+                    <div class="icon icon-sm text-primary">
+                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"/><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"/><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"/></g></svg>                </div>
+    
+                    <!-- Content -->
+                    <div class="ms-4">
+    
+                      <!-- Heading -->
+                      <h6 class="fw-bold text-uppercase text-primary mb-0">
+                        Changelog
+                      </h6>
+    
+                      <!-- Text -->
+                      <p class="fs-sm text-gray-700 mb-0">
+                        Keep track of changes
+                      </p>
+    
+                    </div>
+    
+                    <!-- Badge -->
+                    <span class="badge rounded-pill bg-primary-soft ms-auto">
+                      2.0.0-beta1
+                    </span>
+    
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+    
+          <!-- Button -->
+         <!--  <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
+            Buy now
+          </a> -->
+    
+        </div>
+    
+      </div>
+    </nav> -->
+
+    <!-- WELCOME -->
+    <section class="position-relative pt-12 pt-md-14 mt-n11">
+
+      <!-- Shape -->
+      <div class="shape shape-fluid-x shape-blur-2 svg-shim text-light">
+        <svg viewBox="0 0 1313 768" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M442.794 768c163.088 0 305.568-88.227 382.317-219.556l.183.556s.249-.749.762-2.181a440.362 440.362 0 0033.192-71.389C901.996 397.81 989.306 277.09 1144.29 206l-.92-.693C1230.34 171.296 1295.63 94.049 1312.83 0H1.294v295.514c-.663 9.909-1 19.908-1 29.986 0 244.386 198.114 442.5 442.5 442.5z" fill="currentColor"/></svg>      </div>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-12 col-md-6">
+
+            <!-- Image -->
+            <img src="assets/img/illustrations/illustration-4.png" alt="..." class="img-fluid mw-130 float-end mb-6 mb-md-0" data-aos="fade-right">
+
+          </div>
+          <div class="col-12 col-md-6">
+
+            <!-- Heading -->
+            <h1 class="display-1 fw-bold">
+              <div data-aos="fade-left">Punto de ventas</div>
+              <div data-aos="fade-left" data-aos-delay="100">Sisnet.</div>
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-0" data-aos="fade-left" data-aos-delay="200">
+              Vende de manera simple, ordenada y rápida con opción de boleta electrónica.
+              Crea tu cuenta en línea.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- HUB -->
+    <section class="py-8 py-md-11">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center" data-aos="fade-up">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"/><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"/></g></svg>            </div>
+
+            <!-- Heading -->
+            <h3>
+              Punto de Ventas Web
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Sistema de punto de venta para minimarket con control de stock basado en plataforma web para que puedas conectarte desde cualquier lugar y sin necesidad de instalar nada en tus dispositivos. Puedes conectar lectores de códigos de barra e impresoras térmicas.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="50">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5.5 4h4A1.5 1.5 0 0111 5.5v1A1.5 1.5 0 019.5 8h-4A1.5 1.5 0 014 6.5v-1A1.5 1.5 0 015.5 4zm9 12h4a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5z" fill="#335EEA"/><path d="M5.5 10h4a1.5 1.5 0 011.5 1.5v7A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-7A1.5 1.5 0 015.5 10zm9-6h4A1.5 1.5 0 0120 5.5v7a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-7A1.5 1.5 0 0114.5 4z" fill="#335EEA" opacity=".3"/></g></svg>            </div>
+
+            <!-- Heading -->
+            <h3>
+              Boleta electrónica
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Plataforma Web y App móvil para emitir boletas electrónicas online de manera fácil y rápida. Puedes instalar nuestra App móvil en tu celular o puedas adquirir nuestros terminales móviles dedicados para emitir e imprimir tus boletas.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"/></g></svg>            </div>
+
+            <!-- Heading -->
+            <h3>
+              Integraciones
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-0">
+              Si necesitas que integremos nuestros servicios a tus sistemas actuales, contáctanos.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-8 py-md-11 bg-gray-200">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold">
+              Explora nuestros servicios.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-7 mb-md-9">
+              Ofrecemos soluciones informáticas integrales enfocadas en facilitar, mejorar y modernizar las ventas de nuestros clientes.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row gx-4">
+          <div class="col-12 col-lg-6 d-lg-flex mb-4">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg overflow-hidden" data-aos="fade-up">
+              <div class="row">
+                <div class="col-md-4 position-relative">
+
+                  <!-- Image -->
+                  <img src="assets/img/illustrations/illustration-8.png" class="h-75 position-absolute right-0 mt-7 me-n4" alt="...">
+
+                </div>
+                <div class="col-md-8">
+
+                  <!-- Body -->
+                  <div class="card-body py-7 py-md-9 text-center">
+
+                    <!-- Heading -->
+                    <h4 class="fw-bold">
+                      Informes en línea
+                    </h4>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-0">
+                      Todas las ventas y el inventario de tu negocio siempre disponible, desde cualquier lugar.
+                    </p>
+
+                  </div>
+
+                </div>
+              </div> <!-- / .row -->
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6 d-lg-flex mb-4">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg overflow-hidden text-center" data-aos="fade-up">
+              <div class="row">
+                <div class="col-md-8">
+
+                  <!-- Body -->
+                  <div class="card-body py-7 py-md-9">
+
+                    <!-- Heading -->
+                    <h4 class="fw-bold">
+                      Control de inventario
+                    </h4>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-0">
+                      Tendrás un control de tu stock automático, se reduce con cada venta y queda disponible en tiempo real. Simple y rápido.
+                    </p>
+
+                  </div>
+
+                </div>
+                <div class="col-md-4">
+
+                  <!-- Image -->
+                  <img src="assets/img/illustrations/illustration-6.png" class="h-75 position-absolute left-0 mt-7" alt="...">
+
+                </div>
+              </div> <!-- / .row -->
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg overflow-hidden text-center text-lg-start" data-aos="fade-up">
+              <div class="row">
+                <div class="col-md-4 position-relative">
+
+                  <!-- Image -->
+                  <img src="assets/img/illustrations/illustration-2.png" class="h-75 position-absolute right-0 mt-6" alt="...">
+
+                </div>
+                <div class="col-md-8">
+
+                  <!-- Body -->
+                  <div class="card-body py-7 py-md-9">
+
+                    <!-- Heading -->
+                    <h4 class="fw-bold">
+                      Boleta electrónica.
+                    </h4>
+
+                    <!-- Text -->
+                    <p class="text-muted mb-0">
+                      Nuestro sistema de boleta electrónica te permitirá emitir y respaldar tus boletas de manera rápida y simple cumpliendo con todas las nuevas exigencias legales, tanto como servicio independiente o integrado con nuestro punto de ventas.
+                    </p>
+
+                  </div>
+
+                </div>
+              </div> <!-- / .row -->
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+<!-- precio1 -->
+<!-- WELCOME -->
+    <section class="pt-8 pt-md-11 pb-10 pb-md-15 bg-primary">
+
+      <!-- Shape -->
+      <div class="shape shape-blur-3 svg-shim text-white">
+        <svg viewBox="0 0 1738 487" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z" fill="url(#paint0_linear)"/><defs><linearGradient id="paint0_linear" x1="0" y1="0" x2="1049.98" y2="912.68" gradientUnits="userSpaceOnUse"><stop stop-color="currentColor" stop-opacity=".075"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs></svg>      </div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 text-center">
+
+      <!-- Heading -->
+      <h1 class="display-2 text-white">
+        Precios sencillos y justos.
+      </h1>
+
+      <!-- Text -->
+      <p class="lead text-white-80 mb-6 mb-md-8">
+        Infórmate sobre los precios según el producto o servicio que sea de tu interés.
+      </p>
+
+      <!-- Form -->
+      <form class="d-flex align-items-center justify-content-center mb-7 mb-md-9">
+
+        <!-- Label -->
+        <span class="text-white-80">
+          <!-- Annual -->
+          Mensual
+        </span>
+
+        <!-- Switch -->
+        <div class="form-check form-check-dark form-switch mx-3">
+          <input class="form-check-input" type="checkbox" id="billingSwitch" data-toggle="price" data-target=".price">
+        </div>
+
+        <!-- Label -->
+        <span class="text-white-80">
+        <!--   Monthly -->
+        Anual
+        </span>
+
+      </form>
+
+    </div>
+  </div> <!-- / .row -->
+</div> <!-- / .container -->
+
+</section>
+
+<!-- SHAPE -->
+<div class="position-relative">
+<div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+</div>
+
+<!-- PRICING -->
+<section class="mt-n8 mt-md-n14">
+<div class="container">
+  <div class="row gx-4">
+    <div class="col-12 col-md-4">
+
+      <!-- Card -->
+      <div class="card shadow-lg mb-6 mb-md-0">
+        <div class="card-body">
+
+          <!-- Preheading -->
+          <div class="text-center mb-3">
+            <span class="badge rounded-pill bg-primary-soft">
+              <span class="h6 text-uppercase">App MiTick</span>
+            </span>
+          </div>
+
+          <!-- Price -->
+          <div class="d-flex justify-content-center">
+            <span class="h2 mb-0 mt-2">$</span>
+            <span class="price display-2 mb-0" data-annual="11990" data-monthly="119000">11,990</span>
+            <span class="h2 align-self-end mb-1"></span>
+          </div>
+
+          <!-- Text -->
+          <p class="text-center text-muted mb-5">
+            Valor Neto
+          </p>
+
+          <!-- List -->
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              Boletas Ilimitadas
+            </p>
+
+          </div>
+          <!-- copia  -->
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Ahorra tiempo. No más timbrajes
+            </p>
+            
+
+          </div>
+          <!-- copia hasta aca -->
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Envía las boletas a tus clientes digitalmente
+            </p>
+            
+
+          </div>
+
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Multiusuario 
+            </p>
+            
+
+          </div>
+
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Sistema Móvil
+            </p>
+            
+
+          </div>
+
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Códigos de Barras
+            </p>
+            
+
+          </div>
+
+
+          <!-- Button -->
+          <a href="https://play.google.com/store/apps/details?id=com.tdcom&hl=es_419&gl=US" class="btn w-100 btn-primary-soft">
+            Descargar App <i class="fe fe-arrow-right ms-3"></i>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-md-4">
+
+      <!-- Card -->
+      <div class="card shadow-lg mb-6 mb-md-0">
+        <div class="card-body">
+
+          <!-- Preheading -->
+          <div class="text-center mb-3">
+            <span class="badge rounded-pill bg-primary-soft">
+              <span class="h6 text-uppercase">Punto de Ventas</span>
+            </span>
+          </div>
+
+          <!-- Price -->
+          <div class="d-flex justify-content-center">
+            <span class="h2 mb-0 mt-2">$</span>
+            <span class="price display-2 mb-0" data-annual="39900" data-monthly="399000">39,900</span>
+            <span class="h2 align-self-end mb-1">/mo</span>
+          </div>
+
+          <!-- Text -->
+          <p class="text-center text-muted mb-5">
+            Valor Neto
+          </p>
+
+          <!-- List -->
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              No requiere instalación
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              Opcion de Boletas electrónica
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              Control de inventario
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              Informes en línea
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Multiusuario con Permisos Asignables
+            </p>
+
+          </div>
+
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Multiples tiendas y locales
+            </p>
+
+          </div>
+
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              Cierre de caja
+            </p>
+
+          </div>
+
+          <!-- Button -->
+          <a href="https://demopos.sisnet.cl/" class="btn w-100 btn-primary">
+            Demo en Linea <i class="fe fe-arrow-right ms-3"></i>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-md-4">
+
+      <!-- Card -->
+      <div class="card shadow-lg mb-md-0">
+        <div class="card-body">
+
+          <!-- Preheading -->
+          <div class="text-center mb-3">
+            <span class="badge rounded-pill bg-primary-soft">
+              <span class="h6 text-uppercase">Integraciones</span>
+            </span>
+          </div>
+
+          <!-- Price -->
+          <div class="d-flex justify-content-center">
+            <span class="h2 mb-0 mt-2"></span>
+            <!-- <span class="price display-2 mb-0" data-annual="Consultar" data-monthly="Consultar">Consultar</span> -->
+            <span class="h2 align-self-end mb-1"></span>
+          </div>
+
+          <!-- Text -->
+          <p class="text-center text-muted mb-5">
+           <!--  per seat -->
+          </p>
+
+          <!-- List -->
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              Pythom
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              Php
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              opencart2 
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              prestashop
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              opencart2
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              curl
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p>
+              C++
+            </p>
+
+          </div>
+          <div class="d-flex">
+
+            <!-- Badge -->
+            <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+
+            <!-- Text -->
+            <p class="mb-5">
+              perl
+            </p>
+
+          </div>
+
+          <!-- Button -->
+          <a href="#!" class="btn w-100 btn-primary-soft">
+            Contactanos <i class="fe fe-arrow-right ms-3"></i>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </div> <!-- / .row -->
+</div> <!-- / .container -->
+</section>
+<!-- fin precio1 -->
+    <!--precio2 -->
+ 
+<section class="pt-8 pt-md-11 pb-8 pb-md-14">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold">
+              ¿Aún tienes dudas?
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-7 mb-md-9">
+              Contáctenos y nos comunicaremos  lo antes posible con una solución a cualquier problema que tenga con SISPOS y APP MiTick.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row mb-7 mb-md-9">
+          <div class="col-12 col-md-4 text-center">
+
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              Message us
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="#!" class="h4 text-primary">
+                Start a chat!
+              </a>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4 text-center border-start-md border-gray-300">
+
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              Llame en cualquier momento
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="tel:+56942261440" class="h4">
+                +56 9 4226 1440
+              </a>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4 text-center border-start-md border-gray-300">
+
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              Email
+            </h6>
+
+            <!-- Link -->
+            <a href="mailto:cristian@sisnet.cl" class="h4">
+              cristian@sisnet.cl
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12">
+
+            <!-- Form -->
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactName">
+                      Nombre
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactName" type="text" placeholder="Nombre">
+
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contacap">
+                      Apellido
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactapellido" type="text" placeholder="Apellido">
+
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contacttelefono">
+                      Telefono
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contacttelefono" type="text" placeholder="Telefono">
+
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactEmail">
+                      Telefono
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactEmail" type="email" placeholder="Ingresa tu Email">
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group mb-7 mb-md-9">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactMessage">
+                      Como podemos ayudar. 
+                    </label>
+
+                    <!-- Input -->
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="¡Cuéntanos en qué podemos ayudarte!"></textarea>
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row justify-content-center">
+                <div class="col-auto">
+
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary lift">
+                    enviar
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </form>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <!-- ABOUT -->
+    <section class="pt-5 pt-md-7">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+
+            <!-- Heading -->
+            <h2 class="fw-bold">
+              Sistema Conectado en la Nube.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-5">
+              No te preocupes de actualizaciones y de mantenciones de software. Al estar en la nube todas las actualizaciones son inmediatas y gratis para todos los usuarios. Además de no tendrás que preocuparte por perdida de información, fallas o robos de equipos.
+            </p>
+
+            <!-- Button -->
+            <!-- <a href="#!" class="btn btn-primary-desat mb-6 mb-md-0 lift">
+              Start for free <i class="fe fe-arrow-right ms-3"></i>
+            </a> -->
+
+          </div>
+          <div class="col-12 col-md-6">
+
+            <!-- iPhone + Macbook -->
+            <div class="w-md-130">
+              <div class="device-combo device-combo-iphonex-macbook">
+
+                <!-- iPhone -->
+                <div class="device device-iphonex">
+                  <img src="assets/img/screenshots/mobile/dashkit-alt.jpg" class="device-screen" alt="...">
+                 <!--  <img src="assets/img/devices/iphonex.svg" class="img-fluid" alt="..."> -->
+                </div>
+
+                <!-- Macbook -->
+                <div class="device device-macbook">
+                  <img src="assets/img/screenshots/desktop/dashkit-alt.jpg" class="device-screen" alt="...">
+                  <img src="assets/img/6.svg" class="img-fluid" alt="...">
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- STATS -->
+    <section class="py-8 pt-md-11 pb-md-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center">
+
+            <!-- Heading -->
+            <h1 class="display-2 fw-bold text-primary-desat">
+              <span data-countup='{"startVal": 0}' data-to="100" data-aos data-aos-id="countup:in">0</span>%
+            </h1>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Monthly customer retention. Folks love Landkit and come back.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center">
+
+            <!-- Heading -->
+            <h1 class="display-2 fw-bold text-primary-desat">
+              <span data-countup='{"startVal": "00.0", "decimalPlaces": 1}' data-to="99.9" data-aos data-aos-id="countup:in">00.0</span>%
+            </h1>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Uptime garantizado para todos nuestros servicios, pase lo que pase.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center">
+
+            <!-- Heading -->
+            <h1 class="display-2 fw-bold text-primary-desat">
+              <span data-countup='{"startVal": "0.0", "decimalPlaces": 1}' data-to="5.0" data-aos data-aos-id="countup:in">0.0</span>/5.0
+            </h1>
+
+            <!-- Text -->
+            <p class="text-muted mb-0">
+              Our average review across all of our company product lines.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CTA -->
+    <section class="py-10 py-md-13 bg-gray-200 bg-between" style="background-image: url(assets/img/illustrations/illustration-1-cropped.png), url(assets/img/illustrations/illustration-3-cropped.png);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold">
+              Punto de ventas o App Mitick desde cualquier lugar.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-8 px-lg-9">
+              SISPOS Y APP MITICK esta pensado para ser fácil de usar y poder encontrar rápidamente la información de tu empresa con planes flexibles que te permitirán pagar de acuerdo al crecimiento de tu negocio.
+            </p>
+
+            <!-- Button -->
+            <a href="#!" class="btn btn-primary-desat lift">
+              Empieza inmediatamente
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+    
+            <!-- Brand -->
+            <img src="./assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
+    
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              A better way to build.
+            </p>
+    
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Products
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Page Builder
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Styleguide
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Services
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Pagebuilder
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Connect
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Page Builder
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  UI Kit
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Styleguide
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Changelog
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Pagebuilder
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+
+  </body>
+</html>
